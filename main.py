@@ -105,8 +105,8 @@ def change_steps(user, userid, app_token, step=None):
 if __name__ == "__main__":
     ACCOUNT = os.environ["ACCOUNT"]
     PASSWORD = os.environ["PASSWORD"]
-    RandomMin = 25000 # 随机步数最小值
-    RandomMax = 55000 # 随机步数最大值
+    RandomMin = 10265 # 随机步数最小值
+    RandomMax = 11000 # 随机步数最大值
     account = [# 账号 密码 步数(随机则填None)(可填多个)
         [ACCOUNT, PASSWORD, None],
         #['账号1', '密码1', 步数1],
